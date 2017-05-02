@@ -1,6 +1,5 @@
 jQuery(document).ready(function($) {
-	$('body').on('click', function(event) {
-		event.preventDefault();
+	$('body').on('click', function() {
 		alert("CommonJsTest!");
 	});
 });
